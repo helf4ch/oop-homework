@@ -1,4 +1,4 @@
-package com.company;
+package observer_pattern;
 
 import java.util.LinkedList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.company;
+package strategy_pattern;
 
 public class NormalDisplay implements IDisplayStrategy {
     @Override

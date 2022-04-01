@@ -1,4 +1,4 @@
-package com.company;
+package observer_pattern;
 
 public class StatisticsDisplay implements Observer {
     private float temperature;
