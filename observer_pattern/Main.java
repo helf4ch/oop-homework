@@ -10,5 +10,11 @@ public class Main {
         ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
 
         weatherData.measurementsChanged();
+
+        weatherData.removeObserver(currentConditionsDisplay);
+        weatherData.removeObserver(statisticsDisplay);
+        weatherData.removeObserver(forecastDisplay);
+        
+        weatherData.measurementsChanged();
     }
 }
