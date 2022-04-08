@@ -1,5 +1,7 @@
 package factory.ingredients.sausages;
 
-public abstract class Sausage {
+import factory.ingredients.IIngredients;
+
+public abstract class Sausage implements IIngredients {
     
 }
