@@ -1,6 +1,7 @@
 package generic;
 
 public class LinkedList<T> implements List<T> {
+    
     private class Node<Y> {
 		public Node<Y> previous;
 		public Node<Y> next;

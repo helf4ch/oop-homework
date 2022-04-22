@@ -2,6 +2,7 @@ package generic;
 
 @SuppressWarnings("unchecked")
 public class ArrayList<T> implements List<T> {
+    
     private T[] arr;
     //free element
     private int size = 0;
