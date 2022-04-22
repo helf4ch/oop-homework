@@ -74,6 +74,7 @@ public class LinkedList<T> implements List<T> {
         --this.size;
     }
 
+    //index = 1, n
     @Override
 	public int find(T element) {
         Node<T> current = this.head.next;

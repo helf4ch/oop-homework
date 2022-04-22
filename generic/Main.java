@@ -15,7 +15,11 @@ public class Main {
 
             ls.put(20, 2);
             System.out.println(ls.get(2));
+
+            System.out.println("pos " + ls.find(20));
         }
+
+        System.out.println();
 
         {
             LinkedList<Number> ls = new LinkedList<>();
@@ -30,6 +34,8 @@ public class Main {
 
             ls.put(20, 2);
             System.out.println(ls.get(2));
+
+            System.out.println("pos " + ls.find(20));
         }
     }
 }

@@ -80,6 +80,7 @@ public class ArrayList<T> implements List<T> {
         --this.size;
     }
 
+    //index = 1, n
     @Override
 	public int find(T element) {
         for (int i = 0; i < this.size; ++i) {
