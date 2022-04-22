@@ -24,6 +24,7 @@ public class ArrayList<T> implements List<T> {
         this.arr = (T[]) new Object[n];
     }
 
+    @Override
     public void add(T element) {
         if (this.size < this.capacity) {
             this.arr[size] = element;
@@ -41,6 +42,7 @@ public class ArrayList<T> implements List<T> {
     }
 
     //in position, position = 1, n
+    @Override
 	public void put(T element, int position) {
         if (position - 1 >= this.size) {
             throw new ArrayIndexOutOfBoundsException();
@@ -61,6 +63,7 @@ public class ArrayList<T> implements List<T> {
     }
 
     //position = 1, n
+    @Override
 	public void remove(int position) {
         if (position - 1 >= this.size) {
             throw new ArrayIndexOutOfBoundsException();
@@ -76,6 +79,7 @@ public class ArrayList<T> implements List<T> {
         --this.size;
     }
 
+    @Override
 	public int find(T element) {
         for (int i = 0; i < this.size; ++i) {
             if (arr[i] == element) {
@@ -86,6 +90,7 @@ public class ArrayList<T> implements List<T> {
     }
     
     //index = 1, n
+    @Override
 	public T get(int index) {
         if (index - 1 >= this.size) {
             throw new ArrayIndexOutOfBoundsException();
