@@ -39,6 +39,6 @@ public abstract class Pizza {
     }
     
     public void box() {
-        System.out.println("Now pizza in the box!");
+        System.out.println("Now pizza in the box.");
     }
 }
